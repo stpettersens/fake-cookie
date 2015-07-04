@@ -19,10 +19,10 @@ class Cookie {
     	// RETURN A COOKIE
         if(value == null) {
         	// Return cookie value if cookie exists.
-  			if(index != -1) {
-  				result = Cookie.values[index];
-  			}
-  			// Otherwise, will return null.
+  		if(index != -1) {
+  			result = Cookie.values[index];
+  		}
+  		// Otherwise, will return null.
         }
         // CREATE A COOKIE
         else {
@@ -49,3 +49,4 @@ class Cookie {
     }
 }
 export = Cookie;
+
