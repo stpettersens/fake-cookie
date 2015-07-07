@@ -4,6 +4,8 @@
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
 
 declare module "ssp-fake-storage" {
-	export function cookie(name: string, value?: string, options?: Object): string;
+	export function cookie(name: string, value?: any, options?: Object): string;
 	export function removeCookie(name: string): void;
+	export function clearCookies(): void;
+	export function getCookies(): string[];
 }

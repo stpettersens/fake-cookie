@@ -10,7 +10,8 @@ gulp.task('default', function() {
 	return gulp.src('FakeCookie.ts')
 	.pipe(tsc({
 		noImplicitAny: true,
-		module: 'commonjs'
+		module: 'commonjs',
+		target: 'es5'
 	}))
 	.pipe(gulp.dest('.'));
 });

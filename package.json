@@ -1,10 +1,11 @@
 {
   "name": "fake-cookie",
-  "version": "1.0.0",
-  "description": "Simulates a browser cookie.",
+  "version": "1.0.1",
+  "description": "Simulate reading and writing browser cookies",
   "main": "FakeCookie.js",
   "scripts": {
-    "test": "echo //TODO"
+    "build": "gulp",
+    "test": "node node_modules/mocha/bin/mocha FakeCookie.test.js"
   },
   "keywords": [
     "cookie",
