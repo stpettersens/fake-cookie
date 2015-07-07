@@ -9,7 +9,6 @@ describe('Write cookies:', function() {
     it('Write 1st cookie (logTime => ISO Date String)', function() {
         $.cookie('logTime', new Date().toISOString());
         $.count.should.equal(1).and.be.a.Number;
-       
     });
     
     it('Write 2nd cookie (counter => 5)', function() {
