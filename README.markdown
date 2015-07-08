@@ -5,7 +5,7 @@ Node.js module to simulate reading and writing browser cookie.
 
 Use from JavaScript:
 
-    var fc = require('ssp-fake-cookie');
+    var fc = require('fake-cookie');
     fc.cookie('cookie_name', 'cookie_value');
     fc.cookie('cookie_name'); // ==> 'cookie_value'
     fc.getCookies(); // ==> ['cookie_name=>cookie_value']
@@ -15,8 +15,8 @@ Use from JavaScript:
     
 Use from [TypeScript](http://www.typescriptlang.org):
 
-    /// <reference path="typings/ssp-fake-cookie.d.ts" />
-    import fc = require('ssp-fake-cookie');
+    /// <reference path="typings/fake-cookie.d.ts" />
+    import fc = require('fake-cookie');
     fc.cookie('cookie_name', 'cookie_value');
     fc.cookie('cookie_name'); // ==> 'cookie_value'
     fc.getCookies(); // ==> ['cookie_name=>cookie_value']
