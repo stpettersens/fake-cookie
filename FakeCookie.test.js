@@ -44,8 +44,14 @@ describe('Read cookies:', function() {
     });
 });
 
-describe('Remove cookies:', function() {
-    it('Delete 2nd cookie (counter)', function() {
+describe('Overwrite & remove cookies:', function() {
+    it('Overwrite 3rd cookie (name => \'Jessica\')', function() {
+        $.cookie('name', 'Jessica');
+        console.log('name => ' + $.cookie('name'));
+        $.cookie('name').should.equal('Jessica').and.be.a.String;
+    });
+    
+    it('Remove 2nd cookie (counter)', function() {
         $.removeCookie('counter');
         $.count.should.equal(2);
     });
