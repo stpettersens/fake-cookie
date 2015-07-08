@@ -14,7 +14,7 @@ Use from JavaScript:
 Use from [TypeScript](http://www.typescriptlang.org):
 
     /// <reference path="typings/ssp-fake-cookie.d.ts" />
-    import fc = require('ssp-fake-cookie')
+    import fc = require('ssp-fake-cookie');
     fc.cookie('cookie_name', 'cookie_value');
     fc.cookie('cookie_name'); // ==> 'cookie_value'
     fc.getCookies(); // ==> ['cookie_name=>cookie_value']
