@@ -4,7 +4,7 @@
 
 var gulp = require('gulp'),
 	  fs = require('fs'),
-	 tsc = require('gulp-typescript')
+	 tsc = require('gulp-typescript');
 
 gulp.task('default', function() {
 	return gulp.src('FakeCookie.ts')
