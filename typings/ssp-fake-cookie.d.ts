@@ -1,4 +1,4 @@
-// Type definitions for ssp-fake-cookie
+// Type definitions for fake-cookie
 // Project: https://github.com/stpettersens/node-fake-cookie
 // Definitions by: Sam Saint-Pettersen <https://github.com/stpettersens>
 // Definitions: https://github.com/borisyankov/DefinitelyTyped
