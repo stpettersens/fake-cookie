@@ -1,6 +1,6 @@
 {
   "name": "fake-cookie",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simulate reading and writing browser cookies",
   "main": "FakeCookie.js",
   "scripts": {
