@@ -1,6 +1,6 @@
 {
   "name": "fake-cookie",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simulate reading and writing browser cookies",
   "main": "FakeCookie.js",
   "scripts": {
@@ -18,5 +18,12 @@
     "gulp-typescript": "~2.7.8",
     "mocha": "^2.2.5",
     "should": "^7.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stpettersens/node-fake-cookie"
+  },
+  "bugs": {
+    "url": "https://github.com/stpettersens/node-fake-cookie/issues"
   }
 }
