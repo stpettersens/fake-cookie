@@ -62,10 +62,12 @@ describe('Overwrite & remove cookies:', function() {
     it('Remove 2nd cookie (counter)', function(done) {
         $.removeCookie('counter');
         $.count.should.equal(2);
+        done();
     });
     
-    it('Clear all remaining cookies (name & logTime)', function() {
+    it('Clear all remaining cookies (name & logTime)', function(done) {
         $.clearCookies();
         $.count.should.equal(0);
+        done();
     });
 });
