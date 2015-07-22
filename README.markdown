@@ -1,5 +1,5 @@
 ### fake-cookie
-[![Build Status](https://travis-ci.org/stpettersens/node-fake-cookie.svg?branch=master)](https://travis-ci.org/stpettersens/node-fake-cookie) [![Code Climate](https://codeclimate.com/github/stpettersens/node-fake-cookie/badges/gpa.svg)](https://codeclimate.com/github/stpettersens/node-fake-cookie/code) [![Development Dependency Status](https://david-dm.org/stpettersens/node-fake-cookie/dev-status.png?theme=shields.io)](https://david-dm.org/stpettersens/node-fake-cookie#info=devDependencies) [![npm version](https://badge.fury.io/js/fake-cookie.svg)](http://npmjs.org/package/fake-cookie)
+[![Build Status](https://travis-ci.org/stpettersens/node-fake-cookie.svg?branch=master)](https://travis-ci.org/stpettersens/node-fake-cookie) [![Code Climate](https://codeclimate.com/github/stpettersens/node-fake-cookie/badges/gpa.svg)](https://codeclimate.com/github/stpettersens/node-fake-cookie/code) [![npm version](https://badge.fury.io/js/fake-cookie.svg)](http://npmjs.org/package/fake-cookie) [![Development Dependency Status](https://david-dm.org/stpettersens/node-fake-cookie/dev-status.png?theme=shields.io)](https://david-dm.org/stpettersens/node-fake-cookie#info=devDependencies) 
 
 Node.js module to simulate reading and writing browser cookie.
 
